@@ -10,8 +10,8 @@ else
 fi
 
 # XMonad
-cp -r $HOME/.xmonad/xmonad.hs .xmonad/xmonad.hs
-
+cp $HOME/.xmonad/xmonad.hs .xmonad/xmonad.hs
+cp -r $HOME/.config/xmobar .config/
 
 
 
