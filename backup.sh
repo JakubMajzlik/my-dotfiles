@@ -16,7 +16,8 @@ cp -r $HOME/.doom.d .
 cp $HOME/.zshrc .
 cp -r $HOME/.config/rofi .config/
 cp -r $HOME/.config/picom .config/
-cp -r $HOME/.config/mu4e .config/
+cp -r $HOME/.config/mu4e/mbsyncrc .config/mu4e/mbsyncrc
+cp -r $HOME/.config/alacritty/alacritty.yml .config/alacritty.yml
 
 
 
@@ -31,6 +32,6 @@ fi
 
 
 # push to Github
-git add .;
+git add -u;
 git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
 git push origin main
