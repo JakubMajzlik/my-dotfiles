@@ -12,6 +12,7 @@ fi
 # XMonad
 cp $HOME/.xmonad/xmonad.hs .xmonad/xmonad.hs
 cp -r $HOME/.config/xmobar .config/
+cp -r $HOME/.doom.d .
 
 
 
