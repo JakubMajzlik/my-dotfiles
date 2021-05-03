@@ -13,6 +13,10 @@ fi
 cp $HOME/.xmonad/xmonad.hs .xmonad/xmonad.hs
 cp -r $HOME/.config/xmobar .config/
 cp -r $HOME/.doom.d .
+cp $HOME/.zshrc .
+cp -r $HOME/.config/rofi .config/
+cp -r $HOME/.config/picom .config/
+cp -r $HOME/.config/mu4e .config/
 
 
 
@@ -27,6 +31,6 @@ fi
 
 
 # push to Github
-git add -u;
+git add .;
 git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
 git push origin main
