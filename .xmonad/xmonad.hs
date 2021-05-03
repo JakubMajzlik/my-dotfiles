@@ -306,6 +306,8 @@ myKeys =
     -- Run Prompt
         --, ("M-S-<Return>", spawn "dmenu_run -i -p \"Run: \"") -- Dmenu
         , ("M-S-<Return>", spawn "rofi -show drun -display-drun \"Run: \"") -- Rofi
+        -- , ("M-n", spawn "sh ~/.config/rofi/scripts/network.sh") -- Network Menu
+        , ("M-n", spawn "~/.config/rofi/scripts/rofi-network") -- Network Menu
 
     -- Other Dmenu Prompts
     -- In Xmonad and many tiling window managers, M-p is the default keybinding to
