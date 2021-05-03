@@ -44,7 +44,7 @@
       mu4e-refile-folder "/All Mail"
       mu4e-spam-folder "/Spam"
       mu4e-maildir-shortcuts
-      '(("/jakub/Inbox"    . ?i)
+      '(("/jakub/INBOX"    . ?i)
         ("/jakub/Sent"     . ?s)
         ("/jakub/All Mail" . ?a)
         ("/jakub/Trash"    . ?t)))
