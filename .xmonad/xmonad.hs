@@ -84,13 +84,13 @@ myEditor :: String
 myEditor = "emacsclient -c -a 'emacs' "  -- Sets emacs as editor
 
 myBorderWidth :: Dimension
-myBorderWidth = 2           -- Sets border width for windows
+myBorderWidth = 3           -- Sets border width for windows
 
 myNormColor :: String
 myNormColor   = "#282c34"   -- Border color of normal windows
 
 myFocusColor :: String
-myFocusColor  = "#46d9ff"   -- Border color of focused windows
+myFocusColor  = "#1f7ced"   -- Border color of focused windows
 
 altMask :: KeyMask
 altMask = mod1Mask          -- Setting this for use in xprompts
@@ -234,7 +234,7 @@ wideAccordion  = renamed [Replace "wideAccordion"]
 myTabTheme = def { fontName            = myFont
                  , activeColor         = "#46d9ff"
                  , inactiveColor       = "#313846"
-                 , activeBorderColor   = "#46d9ff"
+                 , activeBorderColor   = "#1f7ced"
                  , inactiveBorderColor = "#282c34"
                  , activeTextColor     = "#282c34"
                  , inactiveTextColor   = "#d0d0d0"
