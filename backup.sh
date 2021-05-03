@@ -17,7 +17,7 @@ cp $HOME/.zshrc .
 cp -r $HOME/.config/rofi .config/
 cp -r $HOME/.config/picom .config/
 cp -r $HOME/.config/mu4e/mbsyncrc .config/mu4e/mbsyncrc
-cp -r $HOME/.config/alacritty/alacritty.yml .config/alacritty.yml
+cp -r $HOME/.config/alacritty/alacritty.yml .config/alacritty/alacritty.yml
 
 
 
