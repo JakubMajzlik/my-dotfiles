@@ -10,7 +10,7 @@ else
 fi
 
 # XMonad
-cp -r $HOME/.xmonad .
+cp -r $HOME/.xmonad/xmonad.hs .xmonad/xmonad.hs
 
 
 
