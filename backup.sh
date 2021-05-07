@@ -20,7 +20,8 @@ cp -r $HOME/.config/mu4e/mbsyncrc .config/mu4e/mbsyncrc
 cp -r $HOME/.config/alacritty/alacritty.yml .config/alacritty/alacritty.yml
 cp -r $HOME/Pictures/Wallpapers Pictures/Wallpapers
 cp -r $HOME/.config/nitrogen .config/
-
+cp -r $HOME/.config/polybar
+cp -r $HOME/.config/i3
 
 # Check git status
 gs="$(git status | grep -i "modified")"
