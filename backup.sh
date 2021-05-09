@@ -22,6 +22,7 @@ cp -r $HOME/Pictures/Wallpapers Pictures/Wallpapers
 cp -r $HOME/.config/nitrogen .config/
 cp -r $HOME/.config/polybar .config/
 cp -r $HOME/.config/i3 .config/
+cp $HOME/.local/bin/rofigen .local/bin/
 
 # Check git status
 gs="$(git status | grep -i "modified")"
